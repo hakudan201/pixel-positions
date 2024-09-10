@@ -4,7 +4,13 @@ export default {
     theme: {
         extend: {
             colors: {
-                "black": "#060606"
+                black: "#060606",
+            },
+            fontFamily: {
+                "hanken-grotesk": ["Hanken Grotesk", "san-serif"],
+            },
+            fontSize: {
+                "2xs": ".625rem" // 10px
             }
         },
     },
